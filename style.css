@@ -125,7 +125,7 @@ nav{
     gap: 5px;
     color: #a6a6a6;
     margin-bottom: 30px;
-    margin-right: 90px;
+    margin-right: 70px;
 }
 
 select{
@@ -263,78 +263,20 @@ select{
         width: 30px;
         height: 30px;
         margin-top: 30px;
-        margin-right: 380px;
+        margin-right: 300px;
 
     }
-
-
-    .barra-busqueda {
-        display: none;
-    }
-
-
-
-
-    .menu{
-        display: none;
-    }
-    
-
-    .imagen-logo-principal{
-        display: flex;
-        justify-content: center;
-        position: relative;
-        
-    }
-
-    .cards-individuales{
-        
-        width: 100%;
-        margin-left: -90px;
-        
-    }
-
-    .informacion{
-        display: flex;
-        justify-content: center;
-
-        gap: 100px;
-        width: 100%;
-        font-size: 8px;
-        
-    }
-
-    
-
-    .gris{
-        text-align: center;
-    }
-
-
-    
-
-    
-    
-}
-
-@media (max-width: 640px){
-
-   
 
 
     .barra-busqueda input{
-        display: flex;
+        display: none;
     }
 
     .barra-busqueda img{
         position: relative;
-        
+        left:250px;
         width: 20px;
         
-    }
-
-    .enlaces{
-        display: none;
     }
 
 
@@ -354,14 +296,72 @@ select{
     .cards-individuales{
         
         width: 100%;
-        margin-left: -25px;
+        margin-left: -90px;
         
     }
 
     .informacion{
-        display: flex;
+        display: inline-block;
         margin-left: 10px;
-        font-size: 10px;
+        width: 100%;
+        
+    }
+
+    .gris{
+        text-align: center;
+    }
+
+
+    
+
+    
+    
+}
+
+@media (max-width: 640px){
+
+   .menu-hamburguesa{
+    display: flex;
+    width: 5px;
+    
+   }
+
+
+    .barra-busqueda{
+        display: none;
+    }
+
+    .barra-busqueda img{
+        position: relative;
+        left:250px;
+        width: 20px;
+        
+    }
+
+
+    .menu{
+        display: none;
+    }
+    
+
+    .imagen-logo-principal{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: -240px;
+        
+    }
+
+    .cards-individuales{
+        
+        width: 100%;
+        margin-left: -90px;
+        
+    }
+
+    .informacion{
+        display: inline-block;
+        margin-left: 10px;
         width: 100%;
         
     }
